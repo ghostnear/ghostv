@@ -5,5 +5,6 @@
 void kernel_main(void)
 {
 	tty_init();
-	puts("Hello World!");
+	if(printf("%d a %d\n", 100, 200) == -1) return;
+	printf("b %d c\n", 200);
 }

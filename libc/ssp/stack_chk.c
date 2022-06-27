@@ -1,7 +1,7 @@
 #include <stdint.h>
 #include <stdlib.h>
  
-// TODO: change these they are temporary
+// TODO: change these they are temporary like this
 #if UINT32_MAX == UINTPTR_MAX
 #define STACK_CHK_GUARD 0xdeadbeef
 #else

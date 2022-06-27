@@ -6,4 +6,6 @@
 __attribute__((__noreturn__))
 void abort(void);
 
+char* itoa(int n, char* str, int base);
+
 #endif
